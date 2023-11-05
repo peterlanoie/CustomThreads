@@ -23,6 +23,12 @@ For example, O.2 would have a 0.2mm looser tolerance than O.0.
 If you just want to use the profiles with no customization, download the file `3DPrintedMetric.xml`, save it in the following directory and then restart Fusion 360.
 
 **On Windows:**
+
+Option 1) Use the [PowerShell script](install_windows.ps1) to copy the file to Fusion's `ThreadData` folder:
+```
+> .\install_windows.ps1
+```
+Option 2) Manually copy to:
 ```
 %localappdata%\Autodesk\webdeploy\Production\<version ID>\Fusion\Server\Fusion\Configuration\ThreadData
 ```
